@@ -9,6 +9,8 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@antv/g2plot": "^2.3.13",
+    "@opd/g2plot-vue": "^3.1.5",
     "core-js": "^3.6.5",
     "vue": "^3.0.0"
   },
@@ -41,5 +43,8 @@
       "vue-cli-service lint",
       "git add"
     ]
+  },
+  "prettier": {
+    "trailingComma": "none"
   }
 }

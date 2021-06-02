@@ -132,7 +132,7 @@
     "@antv/util" "~2.0.5"
     "tslib" "^2.0.0"
 
-"@antv/g2plot@^2.3.13":
+"@antv/g2plot@^2.3.0", "@antv/g2plot@^2.3.13":
   "integrity" "sha512-E3aKcnQxENfGUUwDh7sDRDSzBVys8XQf8qKtnyaPcd+OeZvv1uIOXIrFBihfEHTaHx6SQtRQvsk/cEN/F9tUBQ=="
   "resolved" "https://registry.npmjs.org/@antv/g2plot/-/g2plot-2.3.13.tgz"
   "version" "2.3.13"
@@ -189,7 +189,7 @@
   "resolved" "https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.13.8.tgz"
   "version" "7.13.8"
 
-"@babel/core@^7.1.0", "@babel/core@^7.11.0":
+"@babel/core@^7.0.0", "@babel/core@^7.0.0-0", "@babel/core@^7.1.0", "@babel/core@^7.11.0", "@babel/core@^7.4.0-0", "@babel/core@7.x":
   "integrity" "sha512-oYapIySGw1zGhEFRd6lzWNLWFX2s5dA/jm+Pw/+59ZdXtjyIuwlXbrId22Md0rgZVop+aVoqow2riXhBLNyuQg=="
   "resolved" "https://registry.npmjs.org/@babel/core/-/core-7.13.8.tgz"
   "version" "7.13.8"
@@ -1575,7 +1575,7 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@typescript-eslint/eslint-plugin@^2.33.0":
+"@typescript-eslint/eslint-plugin@^2.33.0", "@typescript-eslint/eslint-plugin@^2.7.0":
   "integrity" "sha512-4zY3Z88rEE99+CNvTbXSyovv2z9PNOVffTWD2W8QF5s2prBQtwN2zadqERcrHpcR7O/+KMI3fcTAmUUhK/iQcQ=="
   "resolved" "https://registry.npmjs.org/@typescript-eslint/eslint-plugin/-/eslint-plugin-2.34.0.tgz"
   "version" "2.34.0"
@@ -1595,7 +1595,7 @@
     "eslint-scope" "^5.0.0"
     "eslint-utils" "^2.0.0"
 
-"@typescript-eslint/parser@^2.33.0":
+"@typescript-eslint/parser@^2.0.0", "@typescript-eslint/parser@^2.33.0", "@typescript-eslint/parser@^2.7.0":
   "integrity" "sha512-03ilO0ucSD0EPTw2X4PntSIRFtDPWjrVq7C3/Z3VQHRC7+13YB55rcJI3Jt+YgeHbjUdJPcPa7b23rXCBokuyA=="
   "resolved" "https://registry.npmjs.org/@typescript-eslint/parser/-/parser-2.34.0.tgz"
   "version" "2.34.0"
@@ -1821,7 +1821,7 @@
   "resolved" "https://registry.npmjs.org/@vue/cli-plugin-vuex/-/cli-plugin-vuex-4.5.11.tgz"
   "version" "4.5.11"
 
-"@vue/cli-service@~4.5.0":
+"@vue/cli-service@^3.0.0 || ^4.0.0-0", "@vue/cli-service@~4.5.0":
   "integrity" "sha512-FXeJh2o6B8q/njv2Ebhe9EsLXt9sPMXGDY5zVvcV5jgj9wkoej9yLfnmwWCau5kegNClP6bcM+BEHuMYxJ+ubQ=="
   "resolved" "https://registry.npmjs.org/@vue/cli-service/-/cli-service-4.5.11.tgz"
   "version" "4.5.11"
@@ -1921,7 +1921,7 @@
     "@vue/compiler-core" "3.0.7"
     "@vue/shared" "3.0.7"
 
-"@vue/compiler-sfc@^3.0.0":
+"@vue/compiler-sfc@^3.0.0", "@vue/compiler-sfc@^3.0.0-beta.14":
   "integrity" "sha512-37/QILpGE+J3V+bP9Slg9e6xGqfk+MmS2Yj8ChR4fS0/qWUU/YoYHE0GPIzjmBdH0JVOOmJqunxowIXmqNiHng=="
   "resolved" "https://registry.npmjs.org/@vue/compiler-sfc/-/compiler-sfc-3.0.7.tgz"
   "version" "3.0.7"
@@ -2226,6 +2226,11 @@
   "resolved" "https://registry.npmjs.org/acorn/-/acorn-5.7.4.tgz"
   "version" "5.7.4"
 
+"acorn@^6.0.0 || ^7.0.0 || ^8.0.0", "acorn@^7.1.0", "acorn@^7.1.1", "acorn@^7.4.0":
+  "integrity" "sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A=="
+  "resolved" "https://registry.npmjs.org/acorn/-/acorn-7.4.1.tgz"
+  "version" "7.4.1"
+
 "acorn@^6.0.1":
   "integrity" "sha512-XtGIhXwF8YM8bJhGxG5kXgjkEuNGLTkoYqVE+KMR+aspr4KGYmKYg7yUe3KghyQ9yheNwLnjmzh/7+gfDBmHCQ=="
   "resolved" "https://registry.npmjs.org/acorn/-/acorn-6.4.2.tgz"
@@ -2235,11 +2240,6 @@
   "integrity" "sha512-XtGIhXwF8YM8bJhGxG5kXgjkEuNGLTkoYqVE+KMR+aspr4KGYmKYg7yUe3KghyQ9yheNwLnjmzh/7+gfDBmHCQ=="
   "resolved" "https://registry.npmjs.org/acorn/-/acorn-6.4.2.tgz"
   "version" "6.4.2"
-
-"acorn@^7.1.0", "acorn@^7.1.1", "acorn@^7.4.0":
-  "integrity" "sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A=="
-  "resolved" "https://registry.npmjs.org/acorn/-/acorn-7.4.1.tgz"
-  "version" "7.4.1"
 
 "address@^1.1.2":
   "integrity" "sha512-aT6camzM4xEA54YVJYSqxz1kv4IHnQZRtThJJHhUMRExaU5spC7jX5ugSwTaTgJliIgs4VhZOk7htClvQ/LmRA=="
@@ -2264,7 +2264,7 @@
   "resolved" "https://registry.npmjs.org/ajv-keywords/-/ajv-keywords-3.5.2.tgz"
   "version" "3.5.2"
 
-"ajv@^6.1.0", "ajv@^6.10.0", "ajv@^6.10.2", "ajv@^6.12.2", "ajv@^6.12.3", "ajv@^6.12.4":
+"ajv@^6.1.0", "ajv@^6.10.0", "ajv@^6.10.2", "ajv@^6.12.2", "ajv@^6.12.3", "ajv@^6.12.4", "ajv@^6.9.1", "ajv@>=5.0.0":
   "integrity" "sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g=="
   "resolved" "https://registry.npmjs.org/ajv/-/ajv-6.12.6.tgz"
   "version" "6.12.6"
@@ -2551,12 +2551,12 @@
     "esutils" "^2.0.2"
     "js-tokens" "^3.0.2"
 
-"babel-core@^7.0.0-bridge.0":
+"babel-core@^6.25.0 || ^7.0.0-0", "babel-core@^7.0.0-bridge.0":
   "integrity" "sha512-poPX9mZH/5CSanm50Q+1toVci6pv5KSRv/5TWCwtzQS5XEwn40BcCrgIeMFWP9CKKIniKXNxoIOnOq4VVlGXhg=="
   "resolved" "https://registry.npmjs.org/babel-core/-/babel-core-7.0.0-bridge.0.tgz"
   "version" "7.0.0-bridge.0"
 
-"babel-jest@^24.9.0":
+"babel-jest@^24.9.0", "babel-jest@>= 24 < 27":
   "integrity" "sha512-ntuddfyiN+EhMw58PTNL1ph4C9rECiQXjI4nMMBKBaNjXvqLdkXpPRcMSr4iyBrJg/+wz9brFUD6RhOAT6r4Iw=="
   "resolved" "https://registry.npmjs.org/babel-jest/-/babel-jest-24.9.0.tgz"
   "version" "24.9.0"
@@ -3808,7 +3808,7 @@
     "postcss" "^7.0.1"
     "timsort" "^0.3.0"
 
-"css-loader@^3.5.3":
+"css-loader@*", "css-loader@^3.5.3":
   "integrity" "sha512-M5lSukoWi1If8dhQAUCvj4H8vUt3vOnwbQBH9DdTm/s4Ym2B/3dPMtYZeJmq7Q3S3Pa+I94DcZ7pc9bP14cWIQ=="
   "resolved" "https://registry.npmjs.org/css-loader/-/css-loader-3.6.0.tgz"
   "version" "3.6.0"
@@ -4608,14 +4608,14 @@
     "object-hash" "^1.1.4"
     "rimraf" "^2.6.1"
 
-"eslint-plugin-prettier@^3.1.3":
+"eslint-plugin-prettier@^3.1.0", "eslint-plugin-prettier@^3.1.3":
   "integrity" "sha512-Rq3jkcFY8RYeQLgk2cCwuc0P7SEFwDravPhsJZOQ5N4YI4DSg50NyqJ/9gdZHzQlHf8MvafSesbNJCcP/FF6pQ=="
   "resolved" "https://registry.npmjs.org/eslint-plugin-prettier/-/eslint-plugin-prettier-3.3.1.tgz"
   "version" "3.3.1"
   dependencies:
     "prettier-linter-helpers" "^1.0.0"
 
-"eslint-plugin-vue@^7.0.0-0":
+"eslint-plugin-vue@^5.2.3 || ^6.0.0 || ^7.0.0-0", "eslint-plugin-vue@^7.0.0-0":
   "integrity" "sha512-mYz4bpLGv5jx6YG/GvKkqbGSfV7uma2u1P3mLA41Q5vQl8W1MeuTneB8tfsLq6xxxesFubcrOC0BZBJ5R+eaCQ=="
   "resolved" "https://registry.npmjs.org/eslint-plugin-vue/-/eslint-plugin-vue-7.7.0.tgz"
   "version" "7.7.0"
@@ -4660,7 +4660,7 @@
   "resolved" "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-1.3.0.tgz"
   "version" "1.3.0"
 
-"eslint@^6.7.2":
+"eslint@*", "eslint@^5.0.0 || ^6.0.0", "eslint@^5.0.0 || ^6.0.0 || ^7.0.0", "eslint@^6.2.0 || ^7.0.0", "eslint@^6.7.2", "eslint@>= 1.6.0 < 7.0.0", "eslint@>= 5.0.0", "eslint@>=1.6.0 <7.0.0", "eslint@>=3.14.1", "eslint@>=5.0.0":
   "integrity" "sha512-K+Iayyo2LtyYhDSYwz5D5QdWw0hCacNzyq1Y821Xna2xSJj7cijoLLYmLxTQgcgZ9mC61nryMy9S7GRbYpI5Ig=="
   "resolved" "https://registry.npmjs.org/eslint/-/eslint-6.8.0.tgz"
   "version" "6.8.0"
@@ -5091,7 +5091,7 @@
   dependencies:
     "flat-cache" "^2.0.1"
 
-"file-loader@^4.2.0":
+"file-loader@*", "file-loader@^4.2.0":
   "integrity" "sha512-aKrYPYjF1yG3oX0kWRrqrSMfgftm7oJW5M+m4owoldH5C51C0RkIwB++JbRvEW3IU6/ZG5n8UvEcdgwOt2UOWA=="
   "resolved" "https://registry.npmjs.org/file-loader/-/file-loader-4.3.0.tgz"
   "version" "4.3.0"
@@ -5788,7 +5788,7 @@
   "resolved" "https://registry.npmjs.org/html-tags/-/html-tags-3.1.0.tgz"
   "version" "3.1.0"
 
-"html-webpack-plugin@^3.2.0":
+"html-webpack-plugin@^3.2.0", "html-webpack-plugin@>=2.26.0":
   "integrity" "sha1-sBq71yOsqqeze2r0SS69oD2d03s="
   "resolved" "https://registry.npmjs.org/html-webpack-plugin/-/html-webpack-plugin-3.2.0.tgz"
   "version" "3.2.0"
@@ -6741,7 +6741,7 @@
     "jest-regex-util" "^24.3.0"
     "jest-snapshot" "^24.9.0"
 
-"jest-resolve@^24.9.0":
+"jest-resolve@*", "jest-resolve@^24.9.0":
   "integrity" "sha512-TaLeLVL1l08YFZAt3zaPtjiVvyy4oSA6CRe+0AFPPVX3Q/VI0giIWWoAvoS5L96vj9Dqxj4fB5p2qrHCmTU/MQ=="
   "resolved" "https://registry.npmjs.org/jest-resolve/-/jest-resolve-24.9.0.tgz"
   "version" "24.9.0"
@@ -6914,7 +6914,7 @@
     "merge-stream" "^2.0.0"
     "supports-color" "^7.0.0"
 
-"jest@^24.9.0":
+"jest@^24.9.0", "jest@>= 24 < 27 ", "jest@>=24 <25":
   "integrity" "sha512-YvkBL1Zm7d2B1+h5fHEOdyjCG+sGMz4f8D86/0HiqJ6MB4MnDc8FgP5vdWsGnemOQro7lnYo8UakZ3+5A0jxGw=="
   "resolved" "https://registry.npmjs.org/jest/-/jest-24.9.0.tgz"
   "version" "24.9.0"
@@ -7253,7 +7253,7 @@
     "date-fns" "^1.27.2"
     "figures" "^2.0.0"
 
-"listr@^0.14.3":
+"listr@^0.14.2", "listr@^0.14.3":
   "integrity" "sha512-RmAl7su35BFd/xoMamRjpIE4j3v+L28o8CT5YhAXQJm1fD+1l9ngXY8JAQRJ+tFK2i5njvi0iRUKV09vPwA0iA=="
   "resolved" "https://registry.npmjs.org/listr/-/listr-0.14.3.tgz"
   "version" "0.14.3"
@@ -8974,7 +8974,7 @@
     "source-map" "^0.6.1"
     "supports-color" "^6.1.0"
 
-"postcss@^8.1.10":
+"postcss@^8.0.0", "postcss@^8.1.0", "postcss@^8.1.10":
   "integrity" "sha512-DsVLH3xJzut+VT+rYr0mtvOtpTjSyqDwPf5EZWXcb0uAKfitGpTY9Ec+afi2+TgdN8rWS9Cs88UDYehKo/RvOw=="
   "resolved" "https://registry.npmjs.org/postcss/-/postcss-8.2.7.tgz"
   "version" "8.2.7"
@@ -9000,7 +9000,7 @@
   dependencies:
     "fast-diff" "^1.1.2"
 
-"prettier@^1.18.2", "prettier@^1.19.1":
+"prettier@^1.18.2", "prettier@^1.19.1", "prettier@>= 1.13.0", "prettier@>=1.13.0":
   "integrity" "sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew=="
   "resolved" "https://registry.npmjs.org/prettier/-/prettier-1.19.1.tgz"
   "version" "1.19.1"
@@ -9434,7 +9434,7 @@
     "stealthy-require" "^1.1.1"
     "tough-cookie" "^2.3.3"
 
-"request@^2.87.0", "request@^2.88.0", "request@^2.88.2":
+"request@^2.34", "request@^2.87.0", "request@^2.88.0", "request@^2.88.2":
   "integrity" "sha512-MsvtOrfG9ZcrOwAW+Qi+F6HbD0CWXEh9ou77uOb7FM2WPhwT7smM833PzanhJLsgXjN89Ir6V2PczXNnMpwKhw=="
   "resolved" "https://registry.npmjs.org/request/-/request-2.88.2.tgz"
   "version" "2.88.2"
@@ -10722,7 +10722,7 @@
   "resolved" "https://registry.npmjs.org/tryer/-/tryer-1.0.1.tgz"
   "version" "1.0.1"
 
-"ts-jest@^24.2.0":
+"ts-jest@^24.2.0", "ts-jest@>= 24 < 27 ":
   "integrity" "sha512-Hb94C/+QRIgjVZlJyiWwouYUF+siNJHJHknyspaOcZ+OQAIdFG/UrdQVXw/0B8Z3No34xkUXZJpOTy9alOWdVQ=="
   "resolved" "https://registry.npmjs.org/ts-jest/-/ts-jest-24.3.0.tgz"
   "version" "24.3.0"
@@ -10869,7 +10869,7 @@
   "resolved" "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz"
   "version" "0.0.6"
 
-"typescript@~3.9.3":
+"typescript@*", "typescript@>= 3.x", "typescript@>=2", "typescript@>=2.1.0 || >=2.1.0-dev || >=2.2.0-dev || >=2.3.0-dev || >=2.4.0-dev || >=2.5.0-dev || >=2.6.0-dev || >=2.7.0-dev || >=2.8.0-dev || >=2.9.0-dev || >= 3.0.0-dev || >= 3.1.0-dev", "typescript@>=2.3.0-dev || >=2.4.0-dev || >=2.5.0-dev || >=2.6.0-dev || >=2.7.0-dev || >=2.8.0-dev || >=2.9.0-dev || >=3.0.0-dev || >= 3.1.0-dev || >= 3.2.0-dev", "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta", "typescript@~3.9.3":
   "integrity" "sha512-kdMjTiekY+z/ubJCATUPlRDl39vXYiMV9iyeMuEuXZh2we6zz80uovNN2WlAxmmdE/Z/YQe+EbOEXB5RHEED3w=="
   "resolved" "https://registry.npmjs.org/typescript/-/typescript-3.9.9.tgz"
   "version" "3.9.9"
@@ -11212,7 +11212,7 @@
   "resolved" "https://registry.npmjs.org/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz"
   "version" "1.9.1"
 
-"vue@^3.0.0":
+"vue@^2 || ^3.0.0-0", "vue@^2.0.0 || >=3.0.0-rc.0", "vue@^2.6.0 || >=3.0.0-rc.1", "vue@^2.x", "vue@^3.0.0", "vue@^3.0.0-0", "vue@^3.0.1", "vue@3.0.7":
   "integrity" "sha512-8h4TikD+JabbMK9aRlBO4laG0AtNHRPHynxYgWZ9sq1YUPfzynd9Jeeb27XNyZytC7aCQRX9xe1+TQJuc181Tw=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-3.0.7.tgz"
   "version" "3.0.7"
@@ -11381,7 +11381,7 @@
     "source-list-map" "^2.0.0"
     "source-map" "~0.6.1"
 
-"webpack@^4.0.0":
+"webpack@^1.0.0 || ^2.0.0 || ^3.0.0 || ^4.0.0", "webpack@^2.0.0 || ^3.0.0 || ^4.0.0", "webpack@^3.0.0 || ^4.1.0 || ^5.0.0-0", "webpack@^4.0.0", "webpack@^4.0.0 || ^5.0.0", "webpack@^4.4.0", "webpack@>=2", "webpack@>=2.0.0 <5.0.0", "webpack@>=4.0.0":
   "integrity" "sha512-6jJuJjg8znb/xRItk7bkT0+Q7AHCYjjFnvKIWQPkNIOyRqoCGvkOs0ipeQzrqz4l5FtN5ZI/ukEHroeX/o1/5Q=="
   "resolved" "https://registry.npmjs.org/webpack/-/webpack-4.46.0.tgz"
   "version" "4.46.0"

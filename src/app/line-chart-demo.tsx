@@ -1,8 +1,9 @@
-import { defineComponent, reactive, ref } from "vue";
+import { defineComponent, reactive, Ref, ref, watch } from "vue";
 import { LineChart } from "@opd/g2plot-vue";
+import { Plot, LineOptions } from "@antv/g2plot";
 
 export default defineComponent(() => {
-  const chartRef = ref(null);
+  const chartRef = ref<Plot<LineOptions> | null>(null);
 
   const config = reactive({
     height: 350,
@@ -37,12 +38,18 @@ export default defineComponent(() => {
     config.data = [...data];
   };
 
+  watch(chartRef, () => {
+    chartRef.value?.on("click", (e: any) => {
+      console.log(e);
+    });
+  });
+
   return () => {
     return (
       <div>
         <button onClick={handleConfigChangeClick}>change config</button>
         <button onClick={handleDataChangeClick}>change data</button>
-        <LineChart {...config} chartRef={chartRef} />
+        <LineChart {...config} chartRef={chartRef as Ref<Plot<LineOptions>>} />
       </div>
     );
   };
